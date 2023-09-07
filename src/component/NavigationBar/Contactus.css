@@ -1,0 +1,14 @@
+.x {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 70px;
+
+}
+
+.c {
+    margin-left: 200px;
+}
+
+.Contact {
+    align-items: center;
+}

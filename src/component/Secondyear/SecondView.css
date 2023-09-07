@@ -1,0 +1,70 @@
+.background {
+    height: 1300px;
+    width: 150%;
+    padding: 20px;
+}
+
+body {
+    background-color: white;
+}
+
+.form-group {
+    height: 70px;
+}
+
+.form-group label {
+    width: 500px;
+}
+
+.register-container {
+    width: 100% !important;
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 100px;
+    background: white;
+}
+
+.register-container input {
+    overflow: visible;
+    width: 60%;
+    height: 40px;
+    text-align: left;
+    font-weight: 300;
+    border: none;
+    border-bottom: 1px dotted black;
+    font-size: 16px;
+    padding-left: 0;
+    margin-left: 500px;
+}
+
+.label {
+    width: 700px;
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.header h2 {
+    line-height: 2;
+    text-align: center;
+    margin-left: 40px;
+
+}
+
+.header p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.uploadphoto {
+    max-width: 50px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.current input {
+    border: none;
+    border-bottom: 1px dotted;
+}

@@ -1,0 +1,65 @@
+.fee {
+  margin-left: 35%;
+}
+
+.fee table {
+  width: auto;
+  height: auto;
+  border: none;
+  font-size: 20px;
+}
+
+.fee td {
+  width: 70%;
+  font-size: 20px;
+
+}
+
+.fee label {
+  margin-left: 50px;
+  width: 90px;
+  font-size: 20px;
+}
+
+.fee input {
+  margin-left: 10px;
+  border: none;
+  border-bottom: 1px dotted;
+  margin-bottom: 25px;
+}
+
+.kpay {
+  margin-left: 35%;
+}
+
+
+.kpay label {
+  margin-left: 0px;
+  width: 380px;
+}
+
+.kpay input {
+  width: 340px;
+  margin-left: 0px;
+}
+
+.payment_btn {
+  margin-left: 10px;
+  background-color: darkblue;
+  width: 6em;
+  height: 2.7em;
+  margin-top: 20px;
+  justify-content: center;
+  transition: 0.5s;
+  border-radius: 0.25em;
+  cursor: pointer;
+  color: white;
+  border-radius: 30px;
+
+
+}
+
+label,
+input {
+  display: block;
+}

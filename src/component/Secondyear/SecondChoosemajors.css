@@ -1,0 +1,84 @@
+
+ .choosemajoradm h1 {
+   font-size: 300%;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   line-height: 3.5;
+   color: black;
+   text-align: center;
+ }
+
+
+ .year .left {
+   float: left;
+   margin-top: 20px;
+ }
+
+
+ .year .right {
+   float: right;
+   margin-top: 20px;
+ }
+
+
+ .year .first {
+   margin: 30px;
+   margin-left: 350px;
+   width:190px;
+   margin-bottom: 5px;
+  
+   
+ }
+
+ .year .first:hover {
+   transform: scale(1.22);
+ }
+
+ .year .second {
+   margin: 30px;
+   margin-left: 350px;
+   width:190px;
+   margin-bottom: 5px;
+ }
+
+ .year .second:hover {
+   transform: scale(1.22);
+ }
+
+ .year .third {
+   margin: 30px;
+   margin-left: 350px;
+   width:190px;
+  
+ }
+
+ .year .third:hover {
+   transform: scale(1.22);
+ }
+
+
+ .year .fourth {
+   margin: 30px;
+   margin-right: 330px;
+   width:190px;
+   
+ }
+
+ .year .fourth:hover {
+   transform: scale(1.22);
+ }
+
+ .year .fifth {
+   margin: 30px;
+   margin-right: 330px;
+   width:190px;
+   
+ }
+
+ .year .fifth:hover {
+   transform: scale(1.22);
+ }
+ 
+ .to_dashboard{
+  background-color: white;
+ }
+
