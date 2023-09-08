@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./Fourth.css";
 import { FourthView } from "./FourthView";
 import { IoMdClose } from "react-icons/io";
+import { MdOutlineKeyboardDoubleArrowLeft } from "react-icons/md";
 
 export const FourthCivil = () => {
   const [engname, setEngname] = useState("");
@@ -392,6 +393,15 @@ export const FourthCivil = () => {
 
   return (
     <div className="table">
+      <div>
+        <Link to={"/fourthchoosemajors"}>
+          <MdOutlineKeyboardDoubleArrowLeft
+            className="backPage"
+            color="blue"
+            size={60}
+          />
+        </Link>
+      </div>
       <div class="col-sm-3 mt-5 mb-4 text-gred">
         <h4>2022-2023 (Student List)</h4>
         <div className="search">
@@ -591,6 +601,7 @@ export const FourthCivil = () => {
           required="required"
           placeholder="Enter a phone number..."
           onChange={(e) => setPhoneno(e.target.value)}
+          maxLength={11}
         />
 
         <button type="submit">Add</button>
@@ -779,6 +790,7 @@ export const FourthCivil = () => {
           required="required"
           placeholder="Enter a phone number..."
           onChange={(e) => setPhoneno1(e.target.value)}
+          maxLength={11}
         />
 
         <button type="submit">Add</button>

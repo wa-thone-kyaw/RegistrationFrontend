@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { Date } from "./Date";
-import Axios from "axios";
 
 export const FourthView = ({ isVisible, data }) => {
   return (

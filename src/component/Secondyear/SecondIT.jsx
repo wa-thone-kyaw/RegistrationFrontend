@@ -53,7 +53,7 @@ export const SecondIT = () => {
   const fetchDataAsync2 = async () => {
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/student_registration/student_list_new_second_ec"
+        "http://127.0.0.1:8000/student_registration/student_list_new_second_it"
       );
       if (!response.ok) {
         throw new Error("Network response was not ok.");
@@ -77,7 +77,7 @@ export const SecondIT = () => {
 
     try {
       await fetch(
-        "http://127.0.0.1:8000/student_registration/add_student_new_second_ec_admin",
+        "http://127.0.0.1:8000/student_registration/add_student_new_second_it_admin",
         {
           method: "POST",
           body: formData,
@@ -101,7 +101,7 @@ export const SecondIT = () => {
   const fetchDataAsync = async () => {
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/student_registration/student_list_old_second_civil"
+        "http://127.0.0.1:8000/student_registration/student_list_old_second_it"
       );
       if (!response.ok) {
         throw new Error("Network response was not ok.");
@@ -125,7 +125,7 @@ export const SecondIT = () => {
 
     try {
       await fetch(
-        "http://127.0.0.1:8000/student_registration/add_student_old_second_civil_admin",
+        "http://127.0.0.1:8000/student_registration/add_student_old_second_it_admin",
         {
           method: "POST",
           body: formData,
@@ -145,7 +145,7 @@ export const SecondIT = () => {
   const handleDeleteClick = async (studentId) => {
     try {
       const response = await fetch(
-        `http://127.0.0.1:8000/student_registration/delete_document_new_second_ec/${studentId}`,
+        `http://127.0.0.1:8000/student_registration/delete_document_new_second_it/${studentId}`,
         {
           method: "DELETE",
         }
@@ -187,7 +187,7 @@ export const SecondIT = () => {
       };
 
       const response = await fetch(
-        `http://127.0.0.1:8000/student_registration/update_document_new_second_ec/${editContactId}`,
+        `http://127.0.0.1:8000/student_registration/update_document_new_second_it/${editContactId}`,
         {
           method: "PATCH",
           body: JSON.stringify(updateData),
@@ -241,7 +241,7 @@ export const SecondIT = () => {
       };
 
       const response = await fetch(
-        `http://127.0.0.1:8000/student_registration/update_document_old_second_civil/${editContactId1}`,
+        `http://127.0.0.1:8000/student_registration/update_document_old_second_it/${editContactId1}`,
         {
           method: "PATCH",
           body: JSON.stringify(updateData),
@@ -278,7 +278,7 @@ export const SecondIT = () => {
   const handleDeleteClick1 = async (studentId) => {
     try {
       const response = await fetch(
-        `http://127.0.0.1:8000/student_registration/delete_document_old_second_civil/${studentId}`,
+        `http://127.0.0.1:8000/student_registration/delete_document_old_second_it/${studentId}`,
         {
           method: "DELETE",
         }
@@ -320,7 +320,7 @@ export const SecondIT = () => {
   const handleViewClick = async (studentId) => {
     try {
       const response = await fetch(
-        `http://127.0.0.1:8000/student_registration/view_second_ec_new/${studentId}`
+        `http://127.0.0.1:8000/student_registration/view_second_it_new/${studentId}`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok.");
